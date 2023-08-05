@@ -1,0 +1,6 @@
+set_input transition 0.12 [all_inputs]
+set_input_delay -max 0.8 [get_ports "a"]
+set_input_delay -max 0.8 [get_ports "b"]
+set_input_delay -max 0.8 [get_ports "cin"]
+set_output_delay -max 0.8 [get_ports "sum"]
+set_output_delay -max 0.8 [get_ports "cout"]
